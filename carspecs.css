@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/Supra.webp);
+    background-color: rgba(194, 11, 11, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    
+}
+
+.specs{
+    color: white;
+    font-size: 1.2rem;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.specs div{
+    cursor: default;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.specs p{
+    font-size: normal;
+    font-style: bold;
+}
+.specs span{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}

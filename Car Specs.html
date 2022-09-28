@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carspecs.css">
+</head>
+<body>
+    <div class="specs">
+        <div>
+          <p>Manufacturer: <span id="manufacturer"></span></p>
+        </div>
+        <div>
+          <p>Make and Model: <span id="make"></span></p>
+        </div>
+        <div>
+          <p>Engine: <span id="engine"></span></p>
+        </div>
+        <div>
+          <p>Body Style: <span id="body_style"></span></p>
+        </div>
+      </div>
+      <script>
+        const manu = document.getElementById("manufacturer"),
+        mnm = document.getElementById("make"),
+        eng = document.getElementById("engine"),
+        style = document.getElementById("body_style");
+
+        manu.innerHTML = "Toyota";
+        mnm.innerHTML = "GR SUPRA"
+        eng.innerHTML = "3.0L"
+        style.innerHTML = "Sedan"
+      </script>
+    </body>
+</body>
+</html>
